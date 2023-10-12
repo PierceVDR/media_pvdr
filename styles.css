@@ -1,0 +1,78 @@
+/* Default styles for all viewports */
+body {
+    background-color: rgb(33, 32, 32);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #b3b8ea;
+}
+
+p {
+    color: white
+}
+
+header {
+    background-color: black;
+
+    text-align: left;
+
+    border: dashed;
+    border-color: white;
+
+    padding-left: 3%
+}
+
+footer {
+    background-color: #333333;
+
+    text-align: left;
+
+    border: solid;
+    border-color: white;
+
+    padding-left: 3%
+}
+
+/* Styles for Mobile Viewport (max-width: 600px) */
+@media (max-width: 600px) {
+    body {
+        background-color: rgb(75, 0, 50);
+    }
+
+    h1 {
+        font-size: 24px
+    }
+
+    p {
+        font-size: 16px
+    }
+
+    footer {
+        font-size: 14px;
+        font-style: oblique;
+    }
+}
+
+/* Styles for Desktop Viewport (min-width: 1024px) */
+@media (min-width: 1025px) {
+    body {
+        background-color: #333366;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    footer {
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
